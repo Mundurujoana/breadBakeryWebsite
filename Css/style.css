@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Charm&family=Roboto:wght@100;300&family=Rochester&family=Updock&display=swap');
+
 body{
     padding: 0;
     margin: 0;
@@ -13,7 +15,12 @@ section{
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 8%;
-    animation: myAnim 5s ease 0s 1 normal forwards;
+    animation: myAnim 5s ease 3s infinite normal forwards;
+    font-family: 'Beau Rivage', cursive;
+    /* font-family: 'Charm', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rochester', cursive;
+    font-family: 'Updock', cursive; */
 }
 
 @keyframes myAnim {
@@ -26,7 +33,26 @@ section{
 		background-position: center bottom;
 		background-size: 150%;
 	}
+
 }
+
+.title1{
+font-size: 45px;
+}
+span{
+    color: #D79F69; 
+}
+.title2{
+    font-size: 70px;
+    letter-spacing: 5px;
+    
+    }
+
+    .title3{
+        font-size: 30px;
+    
+        }
+
 .btn{
    color: #fff;
     padding: 15px;
@@ -41,14 +67,40 @@ section{
     color: rgb(0, 0, 0);
 
 }
-
+.service-title h2{
+    font-family: 'Beau Rivage', cursive;
+font-size: 30px;
+color: #ff7b00;
+font-weight: bold;
+letter-spacing: 5px;
+}
+.service-title p{
+    font-family: 'Beau Rivage', cursive;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
 .about-us{
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 20px;
     margin-left: 20px;
     display: flex;
+    font-family: 'Beau Rivage', cursive;
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Rochester', cursive;
+    font-family: 'Updock', cursive;  */
 }
+
+.about-info h1{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+   
+}
+.about-info p{
+    font-size: 23px;
+}
+
 .about-image{
     display: flex;
    margin: 50px;
@@ -61,10 +113,15 @@ section{
     animation: myAnim 5s ease 0s 1 normal forwards;
 }
 
+.section-two h1{
+padding-left: 50%;
+}
+.section-two p{
 
+}
 /* From uiverse.io by @alexruix */
 .input-group {
-    margin-left: 35%;
+    margin-left: 70%;
     display: flex;
   }
   
@@ -120,6 +177,7 @@ section{
       width: 300px;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       transition: 3s;
+      font-family: 'Beau Rivage', cursive;
   }
 
   .servive-cont2{
@@ -127,6 +185,7 @@ section{
     display: flex;
    align-items: center;
    justify-content: center;
+   font-size: 18px;
 }
 
 .servive-cont2 .box{
@@ -137,6 +196,7 @@ section{
     width: 300px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: 3s;
+    font-family: 'Beau Rivage', cursive;
 }
 
 .box:hover{
@@ -152,6 +212,7 @@ section{
 }
 
 .review-box{
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,7 +249,7 @@ color: rgb(234, 140, 24);
 
 .footer{
     width: 100%;
-height: 60vh;
+height: 80vh;
     bottom: 0;
     background: url(../images/foot4.jpg);
     background-size: cover;
@@ -208,12 +269,8 @@ border: 1px solid red;
     align-items: center;
     justify-content: center;
    justify-content: space-evenly;
-
 }
-/* .card{
-    margin-bottom: 50px;
-    text-align: left;
-} */
+
 
 .socials{
     list-style: none;
@@ -283,3 +340,7 @@ border: 1px solid red;
     color: rgb(0, 0, 0);
     text-align: center;
  }
+
+ hr  .lines{
+    border: 1px solid red;
+    }
